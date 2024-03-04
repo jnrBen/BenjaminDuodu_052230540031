@@ -1,0 +1,79 @@
+body{
+    background: #1A253A;
+    width: 100%;
+    height: 650px;
+    
+ }
+
+ .wrapper{
+    margin: auto;
+    min-height: 100%;
+    position: relative;
+
+ }
+
+.mainHeader{
+    height: 50px;
+    width: 100%;
+    background: goldenrod;
+    display: flex;
+    position:sticky;
+    top: 0;
+}
+
+
+
+.mainLogo{
+    height: 100%;
+    width: 5%;
+}
+
+.mainNav{
+    height: 100%;
+    width: 95%;
+    
+}
+
+.mainLogo img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.mainNav ul li {
+    display: inline-block;
+    margin: 15px 0;
+}
+
+
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 15px;
+    cursor: pointer;
+}
+
+a:hover{
+    background: gold;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background: goldenrod;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    border-right: 3px solid #1A253A;
+    padding-right: 5px;
+    margin-right: 5px;
+
+}

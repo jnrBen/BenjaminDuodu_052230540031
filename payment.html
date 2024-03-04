@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/fast.css">
+    <style>
+         .payment-form {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid goldenrod;
+            border-radius: 8px;
+            background: white;
+
+        }
+
+        body{
+            background-image: url(./Images/img1.jpg); 
+        }
+        .payment-input {
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid goldenrod;
+            border-radius: 4px;
+            color: #1A253A;
+            background: white;
+        }
+        .payment-button {
+            padding: 10px 20px;
+            background-color: goldenrod;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .payment-button:hover {
+            background-color: gold;
+        }
+    </style>
+    
+</head>
+<body>
+    <header class="mainHeader">
+        <div class="mainLogo"> <img src="Images/kstu_logo.png" alt=""></div>
+        <nav class="mainNav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="departments.html">DEPARTMENTS</a></li>
+                <li><a href="timetable.html">TIME TABLES</a></li>
+                <li><a href="payment.html">PAY DUES</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="payment-form">
+        <label for="payment_amount">Enter Payment Amount:</label><br>
+        <input type="text" id="payment_amount" class="payment-input" placeholder="Enter amount">
+        <button id="make_payment" class="payment-button">Make Payment</button>
+    </div>
+
+    <footer>
+        <p>CONTACT US ON <br>
+            +233 023456789<br>
+             FOR MORE INFORMATION <br>
+             You can also get us on <br>
+             kstu@edu.gmail.com <br>
+         </p>
+
+        <br>
+        &copy; 2024 KsTU
+    </footer>
+</body>
+</html>

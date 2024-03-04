@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/fast.css">
+    <link rel="stylesheet" href="CSS/register.css">
+
+</head>
+<body>
+    <header class="mainHeader">
+        <div class="mainLogo"> <img src="Images/kstu_logo.png" alt=""></div>
+        <nav class="mainNav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="departments.html">DEPARTMENTS</a></li>
+                <li><a href="timetable.html">TIME TABLES</a></li>
+                <li><a href="payment.html">PAY DUES</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <form action="/submit" method="post">
+            <label for="first_name">First Name:</label><br>
+            <input type="text" id="first_name" name="first_name"><br><br>
+            
+            <label for="last_name">Last Name:</label><br>
+            <input type="text" id="last_name" name="last_name"><br><br>
+            
+            <label for="email">Student Number:</label><br>
+            <input type="email" id="student_number" name="stundent_num"><br><br>
+            
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+            
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address"><br><br>
+            
+            <label for="faculty">Faculty:</label><br>
+            <input type="text" id="faculty" name="faculty"><br><br>
+            
+            <label for="department">Department:</label><br>
+            <input type="text" id="department" name="department"><br><br>
+            
+            <label for="address">Date of birth:</label><br>
+            <input type="text" id="dob" name="dob"><br><br>
+            
+            <label for="picture">Upload Picture:</label><br>
+            <input type="file" id="picture" name="picture" accept="image/*"><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+</body>
+</html>

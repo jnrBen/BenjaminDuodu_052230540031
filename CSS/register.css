@@ -1,0 +1,61 @@
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid goldenrod; 
+    border-radius: 4px;
+}
+
+
+input[type="submit"] {
+    width: calc(100% - 20px);
+    background-color: goldenrod; 
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #333; 
+}
+
+
+input[type="file"] {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+}
+
+
+form {
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid goldenrod; 
+    border-radius: 5px;
+    background-color: #ddd; 
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    color: black;
+}

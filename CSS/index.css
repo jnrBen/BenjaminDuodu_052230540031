@@ -1,0 +1,58 @@
+body{
+    background-image: url(../Images/nigga.jpg);   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.intro h1{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    color: White;
+    border-left: 4px solid goldenrod;
+    padding-left: 5px;
+}
+
+.intro p{
+    color: gold;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+
+main{
+    margin-top: 16vh;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.info p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: silver;
+    font-size: 20px;
+    border-left: 4px solid goldenrod;
+    padding-left: 5px;
+}
+
+.info a{
+    color: goldenrod;
+    margin-top: 15px;
+}
+
+.second{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18;
+    color: silver;
+    margin: 0 auto;
+}
+
+div.intro p {
+    height: 150px;
+    width: fit-content;
+    overflow: scroll;
+}

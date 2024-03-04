@@ -1,0 +1,31 @@
+h3{
+    color: goldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+}
+p{
+    color: silver;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100px;
+    width: fit-content;
+    overflow: scroll;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+h1{
+    color: goldenrod;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+li{
+    border-left: 4px solid goldenrod;
+}
+
+hr{
+    color: goldenrod 4px;
+
+}
